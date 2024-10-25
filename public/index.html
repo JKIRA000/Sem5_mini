@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search - PlaneRadar</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="logo-ft.jpeg" alt="Logo" class="logo">
+            <h1>PlaneRadar</h1>
+        </div>
+        <div class="header-buttons">
+            <button class="header-button" onclick="goHome()">Home Page</button> 
+            <button class="header-button" onclick="logout()">Logout</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Flight Search by Flight Number</h2>
+        <form id="flightSearchByFlightNumberForm">
+            <input type="text" name="flightNumber" placeholder="Flight Number" required />
+            <button type="submit">Search</button>
+        </form>
+        <div id="resultsSection" style="display:none;">
+            <h3>Results:</h3>
+            <div id="resultsData"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 @ JAR Pvt Ltd. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

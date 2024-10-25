@@ -1,0 +1,83 @@
+body {
+    font-family: 'Bruno Ace SC', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('GettyImages-600824159.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Ensure text is visible over the background image */
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #fff; /* White text to stand out on dark background */
+}
+
+h3 {
+    color: #ccc;
+}
+
+.flight-info, .route-info {
+    margin-bottom: 20px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #000; /* Black background */
+    padding: 10px; /* Reduced padding for smaller footer */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-family: 'Bruno Ace SC', sans-serif;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 12px; /* Reduced font size */
+    color: #fff; /* White font color */
+  }

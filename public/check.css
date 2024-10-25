@@ -1,0 +1,162 @@
+/*
+/* Header styling */
+header {
+  background-color: rgb(9, 9, 9);
+  padding: 5px; /* Decreased padding */
+  color: white;
+  font-size: 16px; /* Decreased font size */
+  font-family: 'Bruno Ace SC', sans-serif; /* Updated font */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for the logo and title */
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px; /* Adjust the size of the logo */
+  height: auto;
+  margin-right: 5px; /* Space between logo and title */
+}
+
+/* Styling for header buttons */
+.header-buttons {
+  display: flex;
+  gap: 15px; /* Space between buttons */
+}
+
+.header-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 25px; /* Decreased padding */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px; /* Decreased font size */
+}
+
+.header-button:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Light gray on hover */
+}
+
+/* Background image for the entire page */
+body {
+  background-image: url('GettyImages-600824159.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Toggle buttons container */
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.toggle-buttons button {
+  padding: 10px 40px;
+  font-size: 16px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  border-radius: 0;
+  margin: 0 15px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.toggle-buttons button.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Form box styling */
+.form-box {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+/* Other form styles */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent */
+}
+
+button[type="submit"] {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: black;
+}
+
+footer {
+  text-align: center;
+  background-color: #000; /* Black background */
+  padding: 10px; /* Reduced padding for smaller footer */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-family: 'Bruno Ace SC', sans-serif;
+}
+
+footer p {
+  margin: 0;
+  font-size: 12px; /* Reduced font size */
+  color: #fff; /* White font color */
+} 
